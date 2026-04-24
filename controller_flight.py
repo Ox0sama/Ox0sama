@@ -150,15 +150,15 @@ def main():
             right_x = joystick.get_axis(3)     # yaw
             throttle_axis = joystick.get_axis(5)  # trigger
 
-            # Invert pitch because pushing stick forward often gives +1
+            # Invert pitch because pushing the stick forward often gives +1
             roll_pwm = axis_to_pwm_centered(left_x)
             pitch_pwm = axis_to_pwm_centered(-left_y)
             yaw_pwm = axis_to_pwm_centered(right_x)
             throttle_pwm = axis_to_pwm_throttle(throttle_axis)
 
-            # Buttons (common Xbox mapping, may vary)
-            a_pressed = joystick.get_button(0)
-            b_pressed = joystick.get_button(1)
+            # Buttons
+            a_pressed = joystick.get_button(1)
+            b_pressed = joystick.get_button(2)
 
             if a_pressed:
                 arm_vehicle(master)
