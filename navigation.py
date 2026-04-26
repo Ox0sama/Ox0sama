@@ -11,6 +11,3 @@ PWM_MAX = 2000
 # Update rate
 SEND_HZ = 20
 SEND_INTERVAL = 1.0 / SEND_HZ
-
-# Deadzone for sticks
-DEADZONE = 0.1
