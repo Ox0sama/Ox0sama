@@ -14,5 +14,3 @@ SEND_INTERVAL = 1.0 / SEND_HZ
 
 # Deadzone for sticks
 DEADZONE = 0.1
-
-# ------
