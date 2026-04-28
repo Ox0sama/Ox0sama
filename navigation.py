@@ -39,3 +39,35 @@ def upload_mission(master, waypoints):
         if msg is None:
             print(f"Pixhawk stopped requesting waypoints at index {i}")
             break
+        master.mav.mission_item_send(
+            master.target_system,
+            master.target_component,
+            i,                                      # Waypoint index number
+            mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT,  # Altitude is relative to home point
+            mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,   # This is a navigation waypoint
+            0, 1, 0, 0, 0, 0,                       # Default options, don't worry about these
+            lat, lon, alt                            # The actual GPS coordinates
+        )
+        print(f"Sent waypoint {i}: lat={lat}, lon={lon}, alt={alt}m")
+
+    # Wait for the Pixhawk to confirm it received all waypoints (e.g: latitude)
+    ack = master.recv_match(type='MISSION_ACK', blocking=True, timeout=5)
+    if ack is None:
+        print("Mission upload timed out — Pixhawk didn't confirm.")
+    elif ack.type == mavutil.mavlink.MAV_MISSION_ACCEPTED:
+        print(f"Mission uploaded successfully! ({len(waypoints)} waypoints)")
+    else:
+        print(f"Mission upload failed. Error code: {ack.type}")
+
+def fly_to(master, lat, lon, alt):
+    set_mode(master, "GUIDED")
+    master.mav.mission_item_send(
+        master.target_system,
+        master.target_component,
+        0,                                              # Waypoint index (just 1 point so index 0)
+        mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, # Altitude relative to home
+        mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,          # Fly to this point
+        2, 1, 0, 0, 0, 0,                              # The "2" means this is the target point
+        lat, lon, alt
+    )
+    print(f"Flying to lat={lat}, lon={lon}, alt={alt}m")
