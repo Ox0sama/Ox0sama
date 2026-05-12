@@ -112,6 +112,6 @@ The Cambridge certification covered programming fundamentals in C, Python, and S
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1a6fba&height=80&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=90ee90&height=80&section=footer"/>
 
 </div>
