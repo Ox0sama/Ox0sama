@@ -18,7 +18,7 @@ Currently designing and simulating an autonomous emergency aid delivery drone as
 
 ## About
 
-I am a freshman at High Tech High School in Union City, NJ, with a background in both software development and hardware engineering. My work spans autonomous drone systems, full-stack web applications, 3D design and fabrication, and introductory cybersecurity. I am interested in projects where engineering and real-world problem solving overlap.
+I am a freshman at High Tech High School in Union City, NJ, with a background in both software development and hardware engineering. My work spans autonomous drone systems, full-stack web applications, 3D design and fabrication, and introductory cybersecurity. I am interested in projects where engineering and real-world problem-solving overlap.
 
 ---
 
