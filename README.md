@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C9A84C&height=120&section=header&text=&fontSize=0"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1a6fba&height=120&section=header&text=&fontSize=0"/>
 
 # Osama Gomaa
 
@@ -107,10 +107,11 @@ The Cambridge certification covered programming fundamentals in C, Python, and S
 
 📧 [osama.gomaa.us@gmail.com](mailto:osama.gomaa.us@gmail.com)
 🐙 [github.com/Ox0sama](https://github.com/Ox0sama)
+
 ---
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C9A84C&height=80&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1a6fba&height=80&section=footer"/>
 
 </div>
