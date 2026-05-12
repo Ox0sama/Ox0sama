@@ -98,8 +98,8 @@ Focus: Computer Science, Robotics, Web Development
 |---|---|---|
 | Computer Science & Programming Certification | Cambridge Assessment International Education | 2025 |
 | Web Development Certificate | Jose Marti STEM Academy | 2025 |
-| MVP - Robotics & Drones Track | RWC (Robotics & Web Competition) | 2026 |
-| MVP - PC Building & Troubleshooting Track | RWC (Robotics & Web Competition) | 2025 |
+| MVP - Robotics & Drones Track | RWC (Real World Connections - NJIT) | 2026 |
+| MVP - PC Building & Troubleshooting Track | RWC (Real World Connections - NJIT) | 2025 |
 
 The Cambridge certification covered programming fundamentals in C, Python, and SQL, assessed through large-scale practical engineering projects.
 
