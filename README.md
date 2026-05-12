@@ -18,7 +18,7 @@ Currently designing and simulating an autonomous emergency aid delivery drone as
 
 ## About
 
-I am a freshman at High Tech High School in Union City, NJ, with a background in both software development and hardware engineering. My work spans autonomous drone systems, full-stack web applications, 3D design and fabrication, and introductory cybersecurity. I am interested in projects where engineering and real-world problem-solving overlap.
+I am a freshman at High Tech High School in Union City, NJ, with a background in both software development and hardware engineering. My work spans autonomous drone systems, full-stack web applications[...]
 
 ---
 
@@ -45,7 +45,7 @@ I am a freshman at High Tech High School in Union City, NJ, with a background in
 
 ### [Emergency Aid Delivery Hexacopter](https://github.com/Ox0sama)
 
-An autonomous 550mm hexacopter designed to locate and deliver emergency aid kits to victims in open public spaces. The system uses a grid-based lawnmower scanning pattern, camera-based victim detection, and a servo-actuated payload release mechanism. Fully simulated in ROS 2 and Gazebo with wind gust modeling. The airframe was designed in OnShape; the flight stack runs on a Pixhawk 4 flight controller with MAVLink integration via Python.
+An autonomous 550mm hexacopter designed to locate and deliver emergency aid kits to victims in open public spaces. The system uses a grid-based lawnmower scanning pattern, camera-based victim detectio[...]
 
 ![Python](https://img.shields.io/badge/Python-1a1a2e?style=flat-square&logo=python&logoColor=C9A84C)
 ![ROS 2](https://img.shields.io/badge/ROS_2-1a1a2e?style=flat-square&logoColor=C9A84C)
@@ -57,7 +57,7 @@ An autonomous 550mm hexacopter designed to locate and deliver emergency aid kits
 
 ### [NBA Players & MVP Reference Site](https://github.com/Ox0sama)
 
-A data-driven web application documenting the best players in NBA history and the MVP of each season. Features career statistics, award histories, and player highlights. Built with vanilla HTML, CSS, and JavaScript.
+A data-driven web application documenting the best players in NBA history and the MVP of each season. Features career statistics, award histories, and player highlights. Built with vanilla HTML, CSS, [...]
 
 ![HTML](https://img.shields.io/badge/HTML5-444?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-444?style=flat-square&logo=css3&logoColor=white)
@@ -67,7 +67,7 @@ A data-driven web application documenting the best players in NBA history and th
 
 ### [Online Bookstore with Database](https://github.com/Ox0sama)
 
-A fully functional e-commerce bookstore featuring user authentication, a SQL database backend, and a complete browsing and checkout experience. Built from scratch without frameworks using HTML, CSS, JavaScript, and SQL.
+A fully functional e-commerce bookstore featuring user authentication, a SQL database backend, and a complete browsing and checkout experience. Built from scratch without frameworks using HTML, CSS, J[...]
 
 ![HTML](https://img.shields.io/badge/HTML5-444?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-444?style=flat-square&logo=css3&logoColor=white)
@@ -98,6 +98,8 @@ Focus: Computer Science, Robotics, Web Development
 |---|---|---|
 | Computer Science & Programming Certification | Cambridge Assessment International Education | 2025 |
 | Web Development Certificate | Jose Marti STEM Academy | 2025 |
+| MVP - Robotics & Drones Track | RWC (Robotics & Web Competition) | 2026 |
+| MVP - PC Building & Troubleshooting Track | RWC (Robotics & Web Competition) | 2025 |
 
 The Cambridge certification covered programming fundamentals in C, Python, and SQL, assessed through large-scale practical engineering projects.
 
