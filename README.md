@@ -108,7 +108,7 @@ The Cambridge certification covered programming fundamentals in C, Python, and S
 ## Contact
 
 📧 [osama.gomaa.us@gmail.com](mailto:osama.gomaa.us@gmail.com)
-🐙 [github.com/Ox0sama](https://github.com/Ox0sama)
+🧑 [github.com/Ox0sama](https://github.com/Ox0sama)
 
 ---
 
