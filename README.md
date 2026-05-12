@@ -103,17 +103,6 @@ The Cambridge certification covered programming fundamentals in C, Python, and S
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ox0sama&show_icons=true&theme=github_dark&title_color=C9A84C&icon_color=C9A84C&hide_border=true&bg_color=1a1a2e"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ox0sama&layout=compact&theme=github_dark&title_color=C9A84C&hide_border=true&bg_color=1a1a2e"/>
-
-</div>
-
----
-
 ## Contact
 
 📧 [osama.gomaa.us@gmail.com](mailto:osama.gomaa.us@gmail.com)
